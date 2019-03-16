@@ -85,8 +85,10 @@ class App extends React.Component {
     }
 
     clickRoulette(){
-        console.log("clicked!");
         clearInterval(this.state.changeImageHandler);
+        setTimeout(() => {
+            window.location.href = 'http://localhost:8888/card/dist/result.php\?image='+this.state.filenames[this.state.fileindex];
+          }, 1000);
     }
     
     render() {
