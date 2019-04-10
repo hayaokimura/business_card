@@ -5,7 +5,7 @@ export default class Roulette extends React.Component {
         super(props);
     }
     render() {
-        const imagePath = "../img/poses/" + this.props.filename;
+        const imagePath = "img/poses/" + this.props.filename;
 
         return(
             <div className="roulette" onClick={this.props.rouletteClick}>
