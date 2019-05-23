@@ -22,7 +22,7 @@ $image_name = htmlspecialchars($_GET['image'], ENT_QUOTES, 'UTF-8');
 <body>
   <header>
       <div id='logo'>
-          <img src="../img/title.png" />
+          <img src="../img/logo.jpg" />
       </div>
   </header>
   <div id='contents'>
