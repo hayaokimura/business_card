@@ -88,7 +88,7 @@ class App extends React.Component {
         clearInterval(this.state.changeImageHandler);
         setTimeout(() => {
             window.location.href = 'dist/result.php\?image='+this.state.filenames[this.state.fileindex];
-          }, 2000);
+          }, 1000);
     }
     
     render() {
@@ -100,10 +100,7 @@ class App extends React.Component {
                     <p>こうやって、<span className="green underline">名刺</span>を渡そう！</p>
                     <p><span className="blue underline">今のキミらしさ</span>、伝えるために。</p>
                 </div>
-                <Roulette filename={fileNames[fileIndex]} />
-                <div className="button" onClick={this.clickRoulette}>
-                    <span>ストップ！</span>
-                </div>
+                <Roulette filename={fileNames[fileIndex]} rouletteClick={this.clickRoulette}/>
             </div>
         );
     }
