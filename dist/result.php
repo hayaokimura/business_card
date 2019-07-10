@@ -12,8 +12,12 @@ $image_name = htmlspecialchars($_GET['image'], ENT_QUOTES, 'UTF-8');
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@MaedaDesignRoom" />
     <meta property="og:url" content=<?="http://".$_SERVER['HTTP_HOST'].$_SERVER["REQUEST_URI"]?> />
-    <meta property="og:title" content="真！名刺交換" />
-    <meta property="og:description" content="記事の要約（ディスクリプション）" />
+    <meta property="og:title" content="新！名刺交換マナー" />
+    <meta property="og:description" content="前田デザイン室発！
+ついつい誰かにやってみたくなる、
+令和時代の名刺交換は、これだ！
+MKM48（名刺交換マナー48手）を、
+みんなでやってみよう！" />
     <meta property="og:image" content=<?="http://".$_SERVER['HTTP_HOST'].'/img/poses/'.$image_name?> />
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/main.css">
