@@ -39,7 +39,10 @@ MKM48（名刺交換マナー48手）を、
       <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" 
       data-url=<?="http://".$_SERVER['HTTP_HOST']?>
       data-via='MaedaDesignRoom'
-      data-text='名刺の渡し方'
+      data-text='ついつい誰かにやってみたくなる、
+令和時代の名刺交換は、これだ！
+MKM48（名刺交換マナー48手）を、
+みんなでやってみよう！'
       data-lang='ja'
       data-show-count="false">Tweet
       </a>
