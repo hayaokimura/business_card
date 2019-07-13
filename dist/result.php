@@ -1,5 +1,5 @@
 <?php 
-$image_name = htmlspecialchars($_GET['image'], ENT_QUOTES, 'UTF-8');
+$image_name = htmlspecialchars($_GET['id'], ENT_QUOTES, 'UTF-8').'.jpg';
 ?>
 <!DOCTYPE html>
 <html lang="en">
